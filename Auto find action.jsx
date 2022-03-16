@@ -32,7 +32,7 @@ $.localize = true
 var cfg = new Config,
     AM = new ActionManager,
     str = new Locale,
-    v = "2.35",
+    v = "2.36",
     GUID = "368afbab-39f4-415e-af9a-556d1400f4ab",
     isCancelled = false;
 main()
