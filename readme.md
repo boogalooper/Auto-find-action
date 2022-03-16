@@ -28,6 +28,9 @@ Click the "Test and Save Settings" button. You will see a message with the searc
 Use the created action to call the script and search for other actions according to the given parameters.
 If necessary, you can adjust the parameters by double-clicking on the command to call the script.
 
+### Compability:
+Tested on Photoshop CC2014 and newer
+
 ### Video example:
 
 [![](https://img.youtube.com/vi/3nb6p91QpNw/0.jpg)](https://youtu.be/3nb6p91QpNw)
