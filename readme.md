@@ -6,8 +6,8 @@ The script allows to find and run an action suitable for an open document.
 
 ### Workspace preparation:
 
-1. Download the script file, copy it to the Presets\Scripts\ folder of Photoshop.
-2. If Photoshop was open, restart it. The script will appear in the menu File -> Scripts
+1. Download the [Auto find action.jsx](/Auto%20find%20action.jsx), copy it to the `Presets\Scripts\` folder of Photoshop.
+2. If Photoshop was open, restart it. The script will appear in the menu `File -> Scripts`
 3. Prepare your workspace - open the desired document and load the actions into the palette
 4. The script is meant to be written to an action - create a new action and start recording. After that, just run the script from the menu (WARNING - do not use the action palette's "insert menu item" function to record a script call)
 
@@ -29,6 +29,7 @@ Use the created action to call the script and search for other actions according
 If necessary, you can adjust the parameters by double-clicking on the command to call the script.
 
 ### Compability:
+
 Tested on Photoshop CC2014 and newer
 
 ### Video example:
