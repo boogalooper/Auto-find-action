@@ -4,16 +4,18 @@ The script allows to find and run an action suitable for an open document.
 
 ![](assets/20220316_213716_2022-03-16_19-12-06.png)
 
-### Workspace preparation:
+### How to start:
 
-1. Download the [Auto find action.jsx](/Auto%20find%20action.jsx), copy it to the `Presets\Scripts\` folder of Photoshop.
+1. Download [Auto find action.jsx](/Auto%20find%20action.jsx), copy it to `Presets\Scripts\` folder of Photoshop.
 2. If Photoshop was open, restart it. The script will appear in the menu `File -> Scripts`
-3. Prepare your workspace - open the desired document and load the actions into the palette
-4. The script is meant to be written to an action - create a new action and start recording. After that, just run the script from the menu (WARNING - do not use the action palette's "insert menu item" function to record a script call)
+3. Prepare your workspace - open any document and load your actions into the palette
+4. Create a new action and start recording. Run the script from Scripts menu to record it's call as command
+
+> Script searches for actions only when it is properly recordered as action command, so do not use the action palette's "insert menu item" function to record a script call
 
 ### Settings:
 
-1. Decide which document should be associated with the action: active or any of the open onesdecide which document should be associated with the action: active or any of the open ones. Select the appropriate option
+1. Decide which document should be associated with the action: active or any of the open ones. Select the appropriate option
 2. Select what will be used for matching with action name: the name of the document, the name of the directory from which the document is opened, the name of the selected layer in the document, the name of any layer from the document (with the ability to filter by label color)
 3. Using the search direction inversion option, you can set the search algorithm: search for the action name in one of the document attributes, or vice versa, search for the selected document attribute in the action name
 4. You can also specify from which part of the attribute name the search will start: from the beginning or from the end of the name
@@ -25,8 +27,7 @@ Click the "Test and Save Settings" button. You will see a message with the searc
 
 ### Usage:
 
-Use the created action to call the script and search for other actions according to the given parameters.
-If necessary, you can adjust the parameters by double-clicking on the command to call the script.
+Use the created action to call the script and search for other actions according to the given parameters. If necessary, you can adjust the parameters by double-clicking on the command to call the script.
 
 ### Compability:
 
@@ -34,5 +35,3 @@ Tested on Photoshop CC2014 and newer
 
 ### Video example:
 
-[![](https://img.youtube.com/vi/3nb6p91QpNw/0.jpg)](https://youtu.be/3nb6p91QpNw)
-[![](https://img.youtube.com/vi/BAbNqKvDjDE/0.jpg)](https://youtu.be/BAbNqKvDjDE)
