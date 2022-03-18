@@ -35,3 +35,5 @@ Tested on Photoshop CC2014 and newer
 
 ### Video example:
 
+[![](https://img.youtube.com/vi/3nb6p91QpNw/0.jpg)](https://youtu.be/3nb6p91QpNw)
+[![](https://img.youtube.com/vi/BAbNqKvDjDE/0.jpg)](https://youtu.be/BAbNqKvDjDE)
